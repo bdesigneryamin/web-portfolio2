@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom right;
+    background-color: #FFF8F3;
+
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: white;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 19px 35px;
+    border: none;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+.btn-primary-secend {
+    color: #FD6E0A;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 19px 35px;
+    border: 1px, solid, #FD6E0A;
+    border-radius: 5px;
+}
+
+/* Header-- Nav is Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Banner */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+
+}
+
+.banner-discribtion {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* main about section styles */
+.about-section {
+    justify-content: center;
+    padding: 131px 157px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    text-align: center;
+    
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* about-info-container */
+.about-info-container{
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+}
+.about-info{
+
+}
+.about-info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.about-info-desctiption{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
